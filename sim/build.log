@@ -1,0 +1,344 @@
+/home/natalia/anaconda3/envs/netmodel/bin/nrnivmodl:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import working_set
+/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim
+Mod files: "mod/mod/ar_traub.mod" "mod/mod/cadad.mod" "mod/mod/CaDynamics_E2.mod" "mod/mod/cadyn.mod" "mod/mod/cagk.mod" "mod/mod/Ca_HVA.mod" "mod/mod/cal_mh.mod" "mod/mod/cal_mig.mod" "mod/mod/Ca_LVAst.mod" "mod/mod/Ca.mod" "mod/mod/cancr.mod" "mod/mod/canin.mod" "mod/mod/can_mig.mod" "mod/mod/catcb.mod" "mod/mod/cat_mig.mod" "mod/mod/cat_traub.mod" "mod/mod/ch_CavL.mod" "mod/mod/ch_CavN.mod" "mod/mod/ch_KCaS.mod" "mod/mod/ch_Kdrfastngf.mod" "mod/mod/ch_KvAngf.mod" "mod/mod/ch_KvCaB.mod" "mod/mod/ch_leak.mod" "mod/mod/ch_Navngf.mod" "mod/mod/DetAMPANMDA.mod" "mod/mod/DetGABAAB.mod" "mod/mod/gabab.mod" "mod/mod/h_BS.mod" "mod/mod/HCN1.mod" "mod/mod/HH2.mod" "mod/mod/h_harnett.mod" "mod/mod/hin.mod" "mod/mod/h_kole.mod" "mod/mod/h_migliore.mod" "mod/mod/htc.mod" "mod/mod/ican_sidi.mod" "mod/mod/iccr.mod" "mod/mod/IC.mod" "mod/mod/iconc_Ca.mod" "mod/mod/Ih.mod" "mod/mod/ikscr.mod" "mod/mod/IKsin.mod" "mod/mod/Im.mod" "mod/mod/IT2.mod" "mod/mod/IT.mod" "mod/mod/kap_BS.mod" "mod/mod/kapcb.mod" "mod/mod/kapin.mod" "mod/mod/kBK.mod" "mod/mod/kca.mod" "mod/mod/kctin.mod" "mod/mod/kdmc_BS.mod" "mod/mod/kdr_BS.mod" "mod/mod/kdrcr.mod" "mod/mod/kdrin.mod" "mod/mod/KdShu2007.mod" "mod/mod/kl.mod" "mod/mod/km.mod" "mod/mod/K_Pst.mod" "mod/mod/K_Tst.mod" "mod/mod/kv.mod" "mod/mod/MyExp2SynBB.mod" "mod/mod/my_exp2syn.mod" "mod/mod/MyExp2SynNMDABB.mod" "mod/mod/nafcr.mod" "mod/mod/nafx.mod" "mod/mod/Nap_Et2.mod" "mod/mod/nap_sidi.mod" "mod/mod/NaTa_t.mod" "mod/mod/NaTs2_t.mod" "mod/mod/nax_BS.mod" "mod/mod/naz.mod" "mod/mod/Nca.mod" "mod/mod/savedist.mod" "mod/mod/SK_E2.mod" "mod/mod/SKv3_1.mod" "mod/mod/StochKv_deterministic.mod" "mod/mod/tia.mod" "mod/mod/vecstim.mod"
+
+Creating 'x86_64' directory for .o files.
+
+ -> [32mCompiling[0m mod_func.cpp
+ -> [32mNMODL[0m ../mod/ar_traub.mod
+ -> [32mNMODL[0m ../mod/cadad.mod
+ -> [32mNMODL[0m ../mod/CaDynamics_E2.mod
+Translating ar_traub.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ar_traub.c
+Translating cadad.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/cadad.c
+Translating CaDynamics_E2.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/CaDynamics_E2.c
+Thread Safe
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/cadyn.mod
+ -> [32mNMODL[0m ../mod/cagk.mod
+ -> [32mNMODL[0m ../mod/Ca_HVA.mod
+Translating cadyn.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/cadyn.c
+Thread Safe
+Translating cagk.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/cagk.c
+ -> [32mNMODL[0m ../mod/cal_mh.mod
+Translating Ca_HVA.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Ca_HVA.c
+Thread Safe
+Thread Safe
+Translating cal_mh.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/cal_mh.c
+ -> [32mNMODL[0m ../mod/cal_mig.mod
+ -> [32mNMODL[0m ../mod/Ca_LVAst.mod
+Thread Safe
+ -> [32mNMODL[0m ../mod/Ca.mod
+Translating cal_mig.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/cal_mig.c
+Translating Ca.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Ca.c
+Translating Ca_LVAst.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Ca_LVAst.c
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/cancr.mod
+ -> [32mNMODL[0m ../mod/canin.mod
+Thread Safe
+Warning: Default 2 of PARAMETER cao will be ignored and set by NEURON.
+Warning: Default 5e-05 of PARAMETER cai will be ignored and set by NEURON.
+ -> [32mNMODL[0m ../mod/can_mig.mod
+Translating cancr.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/cancr.c
+Translating canin.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/canin.c
+Thread Safe
+Translating can_mig.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/can_mig.c
+Thread Safe
+ -> [32mNMODL[0m ../mod/catcb.mod
+ -> [32mNMODL[0m ../mod/cat_mig.mod
+Thread Safe
+Warning: Default 2 of PARAMETER cao will be ignored and set by NEURON.
+Warning: Default 5e-05 of PARAMETER cai will be ignored and set by NEURON.
+ -> [32mNMODL[0m ../mod/cat_traub.mod
+Translating catcb.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/catcb.c
+Translating cat_mig.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/cat_mig.c
+Translating cat_traub.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/cat_traub.c
+Thread Safe
+Thread Safe
+Warning: Default 2 of PARAMETER cao will be ignored and set by NEURON.
+Warning: Default 5e-05 of PARAMETER cai will be ignored and set by NEURON.
+Warning: Default 25 of PARAMETER celsius will be ignored and set by NEURON.
+ -> [32mNMODL[0m ../mod/ch_CavL.mod
+Thread Safe
+ -> [32mNMODL[0m ../mod/ch_CavN.mod
+ -> [32mNMODL[0m ../mod/ch_KCaS.mod
+Translating ch_CavL.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_CavL.c
+Translating ch_CavN.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_CavN.c
+Translating ch_KCaS.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_KCaS.c
+Thread Safe
+Notice: This mechanism cannot be used with CVODE
+Notice: This mechanism cannot be used with CVODE
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/ch_Kdrfastngf.mod
+ -> [32mNMODL[0m ../mod/ch_KvAngf.mod
+ -> [32mNMODL[0m ../mod/ch_KvCaB.mod
+Translating ch_Kdrfastngf.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_Kdrfastngf.c
+Translating ch_KvAngf.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_KvAngf.c
+Translating ch_KvCaB.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_KvCaB.c
+Notice: This mechanism cannot be used with CVODE
+Thread Safe
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/ch_leak.mod
+ -> [32mNMODL[0m ../mod/ch_Navngf.mod
+ -> [32mNMODL[0m ../mod/DetAMPANMDA.mod
+Translating ch_Navngf.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_Navngf.c
+Translating ch_leak.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_leak.c
+Translating DetAMPANMDA.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/DetAMPANMDA.c
+Notice: This mechanism cannot be used with CVODE
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/DetGABAAB.mod
+ -> [32mNMODL[0m ../mod/gabab.mod
+Thread Safe
+ -> [32mNMODL[0m ../mod/h_BS.mod
+Translating gabab.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/gabab.c
+Translating DetGABAAB.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/DetGABAAB.c
+Translating h_BS.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/h_BS.c
+Thread Safe
+ -> [32mNMODL[0m ../mod/HCN1.mod
+Thread Safe
+Thread Safe
+Warning: Default 34 of PARAMETER celsius will be ignored and set by NEURON.
+ -> [32mNMODL[0m ../mod/HH2.mod
+ -> [32mNMODL[0m ../mod/h_harnett.mod
+Translating HCN1.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/HCN1.c
+Thread Safe
+Translating HH2.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/HH2.c
+Translating h_harnett.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/h_harnett.c
+ -> [32mNMODL[0m ../mod/hin.mod
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/h_kole.mod
+ -> [32mNMODL[0m ../mod/h_migliore.mod
+Translating hin.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/hin.c
+Thread Safe
+Warning: Default -10 of PARAMETER ehi will be ignored and set by NEURON.
+Translating h_migliore.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/h_migliore.c
+Translating h_kole.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/h_kole.c
+ -> [32mNMODL[0m ../mod/htc.mod
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/ican_sidi.mod
+ -> [32mNMODL[0m ../mod/iccr.mod
+Translating htc.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/htc.c
+Translating ican_sidi.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ican_sidi.c
+NEURON's CVode method ignores conservation
+Warning: celsius undefined. (declared within VERBATIM?)
+Translating iccr.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/iccr.c
+Thread Safe
+ -> [32mNMODL[0m ../mod/IC.mod
+Thread Safe
+Warning: Default 36 of PARAMETER celsius will be ignored and set by NEURON.
+Thread Safe
+ -> [32mNMODL[0m ../mod/iconc_Ca.mod
+ -> [32mNMODL[0m ../mod/Ih.mod
+Translating IC.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/IC.c
+Translating iconc_Ca.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/iconc_Ca.c
+Thread Safe
+Translating Ih.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Ih.c
+ -> [32mNMODL[0m ../mod/ikscr.mod
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/IKsin.mod
+ -> [32mNMODL[0m ../mod/Im.mod
+Translating ikscr.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ikscr.c
+Translating IKsin.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/IKsin.c
+Translating Im.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Im.c
+Thread Safe
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/IT2.mod
+ -> [32mNMODL[0m ../mod/IT.mod
+ -> [32mNMODL[0m ../mod/kap_BS.mod
+Translating IT.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/IT.c
+Translating IT2.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/IT2.c
+Translating kap_BS.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/kap_BS.c
+Warning: celsius undefined. (declared within VERBATIM?)
+Thread Safe
+Thread Safe
+Warning: Default 2 of PARAMETER cao will be ignored and set by NEURON.
+Warning: Default 0.00024 of PARAMETER cai will be ignored and set by NEURON.
+Thread Safe
+ -> [32mNMODL[0m ../mod/kapcb.mod
+ -> [32mNMODL[0m ../mod/kapin.mod
+ -> [32mNMODL[0m ../mod/kBK.mod
+Translating kapcb.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/kapcb.c
+Translating kapin.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/kapin.c
+Translating kBK.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/kBK.c
+Thread Safe
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/kca.mod
+ -> [32mNMODL[0m ../mod/kctin.mod
+ -> [32mNMODL[0m ../mod/kdmc_BS.mod
+Translating kca.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/kca.c
+Translating kctin.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/kctin.c
+Thread Safe
+Translating kdmc_BS.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/kdmc_BS.c
+ -> [32mNMODL[0m ../mod/kdr_BS.mod
+NEURON's CVode method ignores conservation
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/kdrcr.mod
+ -> [32mNMODL[0m ../mod/kdrin.mod
+Translating kdr_BS.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/kdr_BS.c
+Translating kdrcr.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/kdrcr.c
+Thread Safe
+ -> [32mNMODL[0m ../mod/KdShu2007.mod
+Translating kdrin.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/kdrin.c
+ -> [32mNMODL[0m ../mod/kl.mod
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/km.mod
+Translating KdShu2007.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/KdShu2007.c
+ -> [32mNMODL[0m ../mod/K_Pst.mod
+Translating kl.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/kl.c
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/K_Tst.mod
+Translating km.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/km.c
+Translating K_Pst.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/K_Pst.c
+ -> [32mNMODL[0m ../mod/kv.mod
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/MyExp2SynBB.mod
+Translating K_Tst.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/K_Tst.c
+Translating kv.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/kv.c
+ -> [32mNMODL[0m ../mod/my_exp2syn.mod
+Thread Safe
+Translating MyExp2SynBB.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/MyExp2SynBB.c
+Thread Safe
+ -> [32mNMODL[0m ../mod/MyExp2SynNMDABB.mod
+Translating my_exp2syn.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/my_exp2syn.c
+Thread Safe
+ -> [32mNMODL[0m ../mod/nafcr.mod
+ -> [32mNMODL[0m ../mod/nafx.mod
+Thread Safe
+Translating MyExp2SynNMDABB.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/MyExp2SynNMDABB.c
+ -> [32mNMODL[0m ../mod/Nap_Et2.mod
+INCLUDEing ghk.inc
+Translating nafcr.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/nafcr.c
+Warning: celsius undefined. (declared within VERBATIM?)
+Thread Safe
+Translating nafx.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/nafx.c
+Translating Nap_Et2.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Nap_Et2.c
+Thread Safe
+Warning: Default 55 of PARAMETER ena will be ignored and set by NEURON.
+ -> [32mNMODL[0m ../mod/nap_sidi.mod
+Thread Safe
+ -> [32mNMODL[0m ../mod/NaTa_t.mod
+ -> [32mNMODL[0m ../mod/NaTs2_t.mod
+Thread Safe
+Warning: Default 55 of PARAMETER ena will be ignored and set by NEURON.
+ -> [32mNMODL[0m ../mod/nax_BS.mod
+Translating nap_sidi.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/nap_sidi.c
+Translating NaTa_t.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/NaTa_t.c
+Translating NaTs2_t.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/NaTs2_t.c
+Translating nax_BS.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/nax_BS.c
+Thread Safe
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/naz.mod
+Thread Safe
+ -> [32mNMODL[0m ../mod/Nca.mod
+ -> [32mNMODL[0m ../mod/savedist.mod
+ -> [32mNMODL[0m ../mod/SK_E2.mod
+Translating naz.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/naz.c
+Translating SK_E2.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/SK_E2.c
+Translating Nca.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Nca.c
+Translating savedist.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/savedist.c
+Thread Safe
+Thread Safe
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod/SKv3_1.mod
+ -> [32mNMODL[0m ../mod/StochKv_deterministic.mod
+ -> [32mNMODL[0m ../mod/tia.mod
+ -> [32mNMODL[0m ../mod/vecstim.mod
+Translating SKv3_1.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/SKv3_1.c
+Translating StochKv_deterministic.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/StochKv_deterministic.c
+Translating tia.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/tia.c
+Translating vecstim.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/vecstim.c
+Thread Safe
+Notice: ARTIFICIAL_CELL is a synonym for POINT_PROCESS which hints that it
+only affects and is affected by discrete events. As such it is not
+located in a section and is not associated with an integrator
+Thread Safe
+Warning: celsius undefined. (declared within VERBATIM?)
+Thread Safe
+ -> [32mCompiling[0m ar_traub.c
+ -> [32mCompiling[0m cadad.c
+ -> [32mCompiling[0m CaDynamics_E2.c
+Thread Safe
+ -> [32mCompiling[0m cadyn.c
+In file included from /home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/section.h:37,
+                 from cadad.c:11:
+/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/hocdec.h:15:17: error: conflicting types for ‘hoc_getarg’; have ‘double *(void)’
+   15 | #define getarg  hoc_getarg
+      |                 ^~~~~~~~~~
+cadad.c:42:25: note: in expansion of macro ‘getarg’
+   42 |          extern double *getarg();
+      |                         ^~~~~~
+/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/hocdec.h:15:17: note: previous declaration of ‘hoc_getarg’ with type ‘double *(int)’
+   15 | #define getarg  hoc_getarg
+      |                 ^~~~~~~~~~
+/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/oc_ansi.h:49:16: note: in expansion of macro ‘getarg’
+   49 | extern double* getarg(int);
+      |                ^~~~~~
+In file included from /home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/section.h:37,
+                 from CaDynamics_E2.c:11:
+/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/hocdec.h:15:17: error: conflicting types for ‘hoc_getarg’; have ‘double *(void)’
+   15 | #define getarg  hoc_getarg
+      |                 ^~~~~~~~~~
+CaDynamics_E2.c:42:25: note: in expansion of macro ‘getarg’
+   42 |          extern double *getarg();
+      |                         ^~~~~~
+/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/hocdec.h:15:17: note: previous declaration of ‘hoc_getarg’ with type ‘double *(int)’
+   15 | #define getarg  hoc_getarg
+      |                 ^~~~~~~~~~
+/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/oc_ansi.h:49:16: note: in expansion of macro ‘getarg’
+   49 | extern double* getarg(int);
+      |                ^~~~~~
+make: *** [makemod2c_inc:15: cadad.o] Error 1
+make: *** Se espera a que terminen otras tareas....
+make: *** [makemod2c_inc:23: CaDynamics_E2.o] Error 1
+In file included from /home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/section.h:37,
+                 from ar_traub.c:11:
+/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/hocdec.h:15:17: error: conflicting types for ‘hoc_getarg’; have ‘double *(void)’
+   15 | #define getarg  hoc_getarg
+      |                 ^~~~~~~~~~
+ar_traub.c:42:25: note: in expansion of macro ‘getarg’
+   42 |          extern double *getarg();
+      |                         ^~~~~~
+/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/hocdec.h:15:17: note: previous declaration of ‘hoc_getarg’ with type ‘double *(int)’
+   15 | #define getarg  hoc_getarg
+      |                 ^~~~~~~~~~
+/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/oc_ansi.h:49:16: note: in expansion of macro ‘getarg’
+   49 | extern double* getarg(int);
+      |                ^~~~~~
+make: *** [makemod2c_inc:7: ar_traub.o] Error 1
+In file included from /home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/section.h:37,
+                 from cadyn.c:11:
+/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/hocdec.h:15:17: error: conflicting types for ‘hoc_getarg’; have ‘double *(void)’
+   15 | #define getarg  hoc_getarg
+      |                 ^~~~~~~~~~
+cadyn.c:42:25: note: in expansion of macro ‘getarg’
+   42 |          extern double *getarg();
+      |                         ^~~~~~
+/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/hocdec.h:15:17: note: previous declaration of ‘hoc_getarg’ with type ‘double *(int)’
+   15 | #define getarg  hoc_getarg
+      |                 ^~~~~~~~~~
+/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/include/oc_ansi.h:49:16: note: in expansion of macro ‘getarg’
+   49 | extern double* getarg(int);
+      |                ^~~~~~
+make: *** [makemod2c_inc:31: cadyn.o] Error 1
+Traceback (most recent call last):
+  File "/home/natalia/anaconda3/envs/netmodel/bin/nrnivmodl", line 94, in <module>
+    subprocess.check_call([exe, *sys.argv[1:]])
+  File "/home/natalia/anaconda3/envs/netmodel/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/home/natalia/anaconda3/envs/netmodel/lib/python3.11/site-packages/neuron/.data/bin/nrnivmodl', 'mod']' returned non-zero exit status 2.

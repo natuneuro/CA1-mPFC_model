@@ -1,0 +1,120 @@
+/home/natalia/anaconda3/envs/netmodel/bin/nrnivmodl:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import working_set
+/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim
+Mod files: "mod_minimal/mod_minimal/CaDynamics_E2.mod" "mod_minimal/mod_minimal/Ca_HVA.mod" "mod_minimal/mod_minimal/Ca_LVAst.mod" "mod_minimal/mod_minimal/Ca.mod" "mod_minimal/mod_minimal/ch_HCNp.mod" "mod_minimal/mod_minimal/ch_Kdrp.mod" "mod_minimal/mod_minimal/ch_KvAdistp.mod" "mod_minimal/mod_minimal/ch_KvAproxp.mod" "mod_minimal/mod_minimal/ch_Navaxonp.mod" "mod_minimal/mod_minimal/ch_Navp.mod" "mod_minimal/mod_minimal/Ih.mod" "mod_minimal/mod_minimal/Im.mod" "mod_minimal/mod_minimal/K_Pst.mod" "mod_minimal/mod_minimal/K_Tst.mod" "mod_minimal/mod_minimal/mynetstim.mod" "mod_minimal/mod_minimal/Nap_Et2.mod" "mod_minimal/mod_minimal/NaTa_t.mod" "mod_minimal/mod_minimal/NaTs2_t.mod" "mod_minimal/mod_minimal/SK_E2.mod" "mod_minimal/mod_minimal/SKv3_1.mod" "mod_minimal/mod_minimal/vecstim.mod" "mod_minimal/mod_minimal/xtra.mod"
+
+Creating 'x86_64' directory for .o files.
+
+ -> [32mCompiling[0m mod_func.cpp
+ -> [32mNMODL[0m ../mod_minimal/CaDynamics_E2.mod
+ -> [32mNMODL[0m ../mod_minimal/Ca_HVA.mod
+ -> [32mNMODL[0m ../mod_minimal/Ca_LVAst.mod
+Translating Ca_HVA.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Ca_HVA.c
+Translating CaDynamics_E2.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/CaDynamics_E2.c
+Translating Ca_LVAst.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Ca_LVAst.c
+Thread Safe
+Thread Safe
+cc1plus: warning: command-line option ‘-std=gnu17’ is valid for C/ObjC but not for C++
+ -> [32mNMODL[0m ../mod_minimal/Ca.mod
+Thread Safe
+ -> [32mNMODL[0m ../mod_minimal/ch_HCNp.mod
+ -> [32mNMODL[0m ../mod_minimal/ch_Kdrp.mod
+Translating Ca.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Ca.c
+Translating ch_HCNp.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_HCNp.c
+Translating ch_Kdrp.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_Kdrp.c
+Notice: Assignment to the GLOBAL variable, "ninf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taun", is not thread safe
+Thread Safe
+Notice: Assignment to the GLOBAL variable, "linf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taul", is not thread safe
+ -> [32mNMODL[0m ../mod_minimal/ch_KvAdistp.mod
+ -> [32mNMODL[0m ../mod_minimal/ch_KvAproxp.mod
+ -> [32mNMODL[0m ../mod_minimal/ch_Navaxonp.mod
+Translating ch_KvAproxp.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_KvAproxp.c
+Translating ch_KvAdistp.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_KvAdistp.c
+Translating ch_Navaxonp.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_Navaxonp.c
+Notice: Assignment to the GLOBAL variable, "linf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "linf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "ninf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "ninf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taun", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taun", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taul", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taul", is not thread safe
+Notice: Assignment to the GLOBAL variable, "htau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "hinf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "mtau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "minf", is not thread safe
+ -> [32mNMODL[0m ../mod_minimal/ch_Navp.mod
+ -> [32mNMODL[0m ../mod_minimal/Ih.mod
+ -> [32mNMODL[0m ../mod_minimal/Im.mod
+Translating ch_Navp.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/ch_Navp.c
+Notice: Assignment to the GLOBAL variable, "htau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "hinf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "mtau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "minf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "sinf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taus", is not thread safe
+Translating Im.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Im.c
+Translating Ih.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Ih.c
+Thread Safe
+ -> [32mNMODL[0m ../mod_minimal/K_Pst.mod
+Thread Safe
+ -> [32mNMODL[0m ../mod_minimal/K_Tst.mod
+ -> [32mNMODL[0m ../mod_minimal/mynetstim.mod
+Translating K_Pst.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/K_Pst.c
+Translating mynetstim.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/mynetstim.c
+Translating K_Tst.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/K_Tst.c
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod_minimal/Nap_Et2.mod
+Thread Safe
+ -> [32mNMODL[0m ../mod_minimal/NaTa_t.mod
+ -> [32mNMODL[0m ../mod_minimal/NaTs2_t.mod
+Translating Nap_Et2.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/Nap_Et2.c
+Translating NaTa_t.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/NaTa_t.c
+Translating NaTs2_t.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/NaTs2_t.c
+Thread Safe
+Thread Safe
+Thread Safe
+ -> [32mNMODL[0m ../mod_minimal/SK_E2.mod
+ -> [32mNMODL[0m ../mod_minimal/SKv3_1.mod
+ -> [32mNMODL[0m ../mod_minimal/vecstim.mod
+Translating SKv3_1.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/SKv3_1.c
+Translating SK_E2.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/SK_E2.c
+Translating vecstim.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/vecstim.c
+Thread Safe
+Thread Safe
+Notice: ARTIFICIAL_CELL is a synonym for POINT_PROCESS which hints that it
+only affects and is affected by discrete events. As such it is not
+located in a section and is not associated with an integrator
+Thread Safe
+ -> [32mCompiling[0m CaDynamics_E2.c
+ -> [32mNMODL[0m ../mod_minimal/xtra.mod
+ -> [32mCompiling[0m Ca_HVA.c
+Translating xtra.mod into /run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64/xtra.c
+Notice: Use of POINTER is not thread safe.
+Notice: Assignment to the GLOBAL variable, "lfp", is not thread safe
+ -> [32mCompiling[0m Ca_LVAst.c
+ -> [32mCompiling[0m Ca.c
+ -> [32mCompiling[0m ch_HCNp.c
+ -> [32mCompiling[0m ch_Kdrp.c
+ -> [32mCompiling[0m ch_KvAdistp.c
+ -> [32mCompiling[0m ch_KvAproxp.c
+ -> [32mCompiling[0m ch_Navaxonp.c
+ -> [32mCompiling[0m ch_Navp.c
+ -> [32mCompiling[0m Ih.c
+ -> [32mCompiling[0m Im.c
+ -> [32mCompiling[0m K_Pst.c
+ -> [32mCompiling[0m K_Tst.c
+ -> [32mCompiling[0m mynetstim.c
+ -> [32mCompiling[0m Nap_Et2.c
+ -> [32mCompiling[0m NaTa_t.c
+ -> [32mCompiling[0m NaTs2_t.c
+ -> [32mCompiling[0m SK_E2.c
+ -> [32mCompiling[0m SKv3_1.c
+ -> [32mCompiling[0m vecstim.c
+ -> [32mCompiling[0m xtra.c
+ => [32mLINKING[0m shared library ./libnrnmech.so
+ => [32mLINKING[0m executable ./special LDFLAGS are:    -pthread
+Successfully created x86_64/special

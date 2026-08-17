@@ -1,0 +1,176 @@
+./CaDynamics_E2.c: ../mod_minimal/CaDynamics_E2.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "CaDynamics_E2.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./CaDynamics_E2.o: ./CaDynamics_E2.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./Ca_HVA.c: ../mod_minimal/Ca_HVA.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Ca_HVA.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./Ca_HVA.o: ./Ca_HVA.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./Ca_LVAst.c: ../mod_minimal/Ca_LVAst.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Ca_LVAst.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./Ca_LVAst.o: ./Ca_LVAst.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./Ca.c: ../mod_minimal/Ca.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Ca.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./Ca.o: ./Ca.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./ch_HCNp.c: ../mod_minimal/ch_HCNp.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_HCNp.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./ch_HCNp.o: ./ch_HCNp.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./ch_Kdrp.c: ../mod_minimal/ch_Kdrp.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_Kdrp.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./ch_Kdrp.o: ./ch_Kdrp.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./ch_KvAdistp.c: ../mod_minimal/ch_KvAdistp.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_KvAdistp.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./ch_KvAdistp.o: ./ch_KvAdistp.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./ch_KvAproxp.c: ../mod_minimal/ch_KvAproxp.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_KvAproxp.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./ch_KvAproxp.o: ./ch_KvAproxp.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./ch_Navaxonp.c: ../mod_minimal/ch_Navaxonp.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_Navaxonp.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./ch_Navaxonp.o: ./ch_Navaxonp.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./ch_Navp.c: ../mod_minimal/ch_Navp.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "ch_Navp.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./ch_Navp.o: ./ch_Navp.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./Ih.c: ../mod_minimal/Ih.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Ih.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./Ih.o: ./Ih.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./Im.c: ../mod_minimal/Im.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Im.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./Im.o: ./Im.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./K_Pst.c: ../mod_minimal/K_Pst.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "K_Pst.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./K_Pst.o: ./K_Pst.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./K_Tst.c: ../mod_minimal/K_Tst.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "K_Tst.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./K_Tst.o: ./K_Tst.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./mynetstim.c: ../mod_minimal/mynetstim.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "mynetstim.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./mynetstim.o: ./mynetstim.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./Nap_Et2.c: ../mod_minimal/Nap_Et2.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "Nap_Et2.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./Nap_Et2.o: ./Nap_Et2.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./NaTa_t.c: ../mod_minimal/NaTa_t.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "NaTa_t.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./NaTa_t.o: ./NaTa_t.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./NaTs2_t.c: ../mod_minimal/NaTs2_t.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "NaTs2_t.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./NaTs2_t.o: ./NaTs2_t.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./SK_E2.c: ../mod_minimal/SK_E2.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "SK_E2.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./SK_E2.o: ./SK_E2.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./SKv3_1.c: ../mod_minimal/SKv3_1.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "SKv3_1.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./SKv3_1.o: ./SKv3_1.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./vecstim.c: ../mod_minimal/vecstim.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "vecstim.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./vecstim.o: ./vecstim.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
+./xtra.c: ../mod_minimal/xtra.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod_minimal";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "xtra.mod" -o "/run/media/natalia/Naty SSD/DOCTORADO/CODIGOS/Math_model/CA1_mPFC_TC-main/sim/x86_64")
+
+./xtra.o: ./xtra.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mod_minimal" $(INCLUDES) -fPIC -c $< -o $@
+
