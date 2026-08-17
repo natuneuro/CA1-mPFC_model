@@ -1,5 +1,5 @@
 
-# The 
+# CA1 - interneuron - mPFC model
 
 ### Installation
 
